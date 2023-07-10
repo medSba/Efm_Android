@@ -34,6 +34,17 @@ public class MainActivity extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
+        btncalcul.setOnClickListener(v -> {
+            String number=etnumber.getText().toString();
+            if (number.isEmpty() || number.isBlank()){
+                AlertDialog.Builder builder=new AlertDialog.Builder(this);
+                builder.setTitle("Caution");
+                builder.setMessage("You should enter numeric value!");
+                builder.show();
+            }else {
+
+            }
+        });
 
     }
 }
