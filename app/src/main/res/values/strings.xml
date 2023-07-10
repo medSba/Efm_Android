@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Efm_Android</string>
+    <string-array name="spinner_items">
+        <item>Opposite</item>
+        <item>Absolute Value</item>
+        <item>Square</item>
+    </string-array>
 </resources>
